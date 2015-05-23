@@ -139,7 +139,6 @@ void outputCharacter() {
 
 void buttonPressLogic(int duration) {
   if (timeSinceLastPress > 2000) {
-     Keyboard.write('_');
      chainLength = 0;  
   }
   
